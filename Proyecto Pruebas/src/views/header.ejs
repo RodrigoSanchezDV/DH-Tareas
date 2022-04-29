@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="/public/productImages/patto.png" rel="shortcut icon"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css"/>
+    <title>Document</title>
+</head>
+<header>
+    <% if (locals.isAnUserLogged){ %>
+        <div class="container">
+            <a href="/users/logout">LogUot</a>
+            <a href="/users/profile">Perfil</a>
+        </div>
+    <% }else{ %>
+        <div class="container">
+            <a href="/users/createAccount" >Crear cuenta</a>
+            <a href="/users/login" >Iniciar sesion</a>
+        </div>
+    <%}%>
+</header>
+

@@ -1,0 +1,60 @@
+[
+ {
+  "id": 1,
+  "name": "Intel core i5 12800k",
+  "price": 80,
+  "img": "IMG-1643138632150pdt.jpg",
+  "img2": "IMG-1643138632156pdt2.jpg",
+  "img3": "IMG-1643138632161pdt3.jpg",
+  "img4": "IMG-1643138632178pdt4.jpg",
+  "talles": [
+   "S",
+   "M",
+   "Xl"
+  ]
+ },
+ {
+  "id": 2,
+  "name": "Intel core i5 12800k",
+  "price": 80,
+  "img": "IMG-1643138664045pdt.jpg",
+  "img2": "IMG-1643138664054pdt2.png",
+  "img3": "IMG-1643138664113pdt3.png",
+  "img4": "IMG-1643138664145pdt4.jpg",
+  "talles": [
+   "XS",
+   "S",
+   "M",
+   "Xl"
+  ]
+ },
+ {
+  "id": 3,
+  "name": "Mandioca",
+  "price": 2,
+  "img": "default-IMG.png",
+  "img2": "default-IMG.png",
+  "img3": "default-IMG.png",
+  "img4": "default-IMG.png",
+  "talles": [
+   "S",
+   "M",
+   "Xl"
+  ]
+ },
+ {
+  "id": 4,
+  "name": "Intel core i5 12800k",
+  "price": 800000,
+  "img": "IMG-1643138918180pdt.gif",
+  "img2": "IMG-1643138918188pdt2.gif",
+  "img3": "IMG-1643138918210pdt3.gif",
+  "img4": "IMG-1643138918230pdt4.gif",
+  "talles": [
+   "XS",
+   "S",
+   "M",
+   "Xl"
+  ]
+ }
+]

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crear Producto</title>
+</head>
+<body>
+    <form action="/products/" method="post" enctype="multipart/form-data">   
+
+        <input type="file" name="pdt">
+        <input type="file" name="pdt2">
+        <input type="file" name="pdt3">
+        <input type="file" name="pdt4">
+        <label for="">Imagen del producto</label>
+        
+        <h2>Talles</h2>
+        <input type="checkbox" name="talleXS">
+        <label for="">Talle XS</label>
+        <input type="checkbox" name="talleS">
+        <label for="">Talle S</label>
+        <input type="checkbox" name="talleM">
+        <label for="">Talle M</label>
+        <input type="checkbox" name="talleXL">
+        <label for="">Talle XL</label>
+
+        
+        <label for="">Nombre</label> 
+        <input type="text" name="productName">
+
+        
+        <label for="">Precio $</label>
+        <input type="number" name="productPrice">
+
+        <button type="submit">Guardar</button>
+    </form>
+</body>
+</html>

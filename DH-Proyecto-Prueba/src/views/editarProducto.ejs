@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Editar Producto</title>
+</head>
+<body>
+  <h2>xXX-->Formulario editar productos<--XXx</h2>
+  <form action="/products/<%=product.id%>/?_method=PUT" method="post" enctype="multipart/form-data">
+    
+      <input type="file" name="img">
+      <input type="file" name="img2">
+      <input type="file" name="img3">
+      <input type="file" name="img4">
+      <label for="">Imagen del producto</label>
+      
+      <label for="">Nombre</label>
+      <input type="text" name="productName" value="<%=product.name%>">
+
+      <label for="">Precio $</label>
+      <input type="number" name="productPrice" value="<%=product.price%>">
+
+      <button type="submit">Editar datos</button>
+  </form>
+</body>
+</html>

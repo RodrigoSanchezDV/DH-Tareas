@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css"/>
+    <title>Document</title>
+</head>
+<body>
+<form action="/users/create" method="post" enctype="multipart/form-data"> 
+
+    <div>
+        <label for="">Nombre</label>
+        <input type="text" name="nombreUsuario" value="<%=locals.old && old.nombreUsuario ? old.nombreUsuario : ""%>">
+        <p class="text-danger"><%= locals.error && error.nombreUsuario ? error.nombreUsuario.msg : ""%></p>
+        
+    </div>
+
+
+    <div>
+        <label for="">Apellido</label>
+        <input type="text" name="lastName" value="<%=locals.old && old.lastName ? old.lastName : ""%>">
+        <p class="text-danger"><%= locals.error && error.lastName ? error.lastName.msg : ""%></p>
+    </div>
+
+    <div>
+        <label for="">Correo Electronico</label>
+        <input type="email" name="email" value="<%=locals.old && old.email ? old.email : ""%>">
+        <p class="text-danger"><%= locals.error && error.email ? error.email.msg : ""%></p>
+        <p class="text-danger"><%= locals.error && error.correo ? error.correo: ""%></p>
+    </div>
+
+    <div>
+        <label for="">Contraseña</label>
+        <input type="password" name="password">
+        <p class="text-danger"><%= locals.error && error.password ? error.password.msg : ""%></p>
+        <p class="text-danger"><%= locals.error && error.twinPasswords ? error.twinPasswords : ""%></p>
+        
+    </div>
+    <div>
+        <label for="">Repetir contraseña</label>
+        <input type="password" name="password2">
+    </div>
+    <br>
+    <div>
+        <label for="">Subir foto de perfil</label>
+        <input type="file" name="userImage" id="">
+    </div>
+
+    <button type="submit">Guardar</button>
+</form>
+
+
+</body>
+</html>

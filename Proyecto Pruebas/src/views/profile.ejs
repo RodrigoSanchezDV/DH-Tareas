@@ -1,0 +1,9 @@
+
+<body>
+    <%- include ("./header.ejs",{
+        cssLink: 'href="../../public/css/style.css" '})%>
+        <br>
+    <img src="/userImages/<%= dataUser.img %>" alt="" width="200px">
+    <p>Hi developer <%= dataUser.name %> <%= dataUser.lastName %></p>
+</body>
+</html>
