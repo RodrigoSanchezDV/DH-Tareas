@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/edit/<%= data.id %> " method="post">
+        <label for="">Name</label>
+        <input type="text" name="name" value="<%= data.name %>">
+        <br>
+        <br>
+        <label for="">description</label>
+        <input type="text" name="description" value="<%= data.description %>">
+        <br>
+        <br>
+        <label for="">Price</label>
+        <input type="number" name="price" value="<%= data.price %>">
+        <br>
+        <br>
+        <label for="">Discount</label>
+        <input type="number" name="discount" value="<%= data.discount %>">
+
+        <p><button type="submit">Ok</button></p>
+    </form>
+</body>
+</html>
