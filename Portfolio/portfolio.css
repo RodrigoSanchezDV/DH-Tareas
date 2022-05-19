@@ -11,31 +11,46 @@ body{
   }
 
 .imageProfile{
-    width: 200px;
-    margin-left:300px;
+  width: 200px;
+  margin-left:300px;
 }
 
 .description{
   text-shadow: 0 0 2px rgb(41, 50, 51);
-    display: flex;
-    font-family: 'Bungee Inline';
-    color: #ffffff;
-    font-weight:300;
-    font-size:25px;
-    width:100%;
-    justify-content:space-between;
-    margin-bottom:50px;
+  display: flex;
+  font-family: 'Bungee Inline';
+  color: #ffffff;
+  font-weight:300;
+  font-size:25px;
+  width:100%;
+  justify-content:space-between;
+  margin-bottom:50px;
 }
 
 .text1{
-    width: 25%;
-    margin-left: 280px;
+  color: #ffff;
+  width: 25%;
+  margin-left: 280px;
+  background-color:rgba(34, 212, 72, 0.09);
+  height:25%;
+  border:3px double rgba(34, 212, 72, 0.541);
+  border-radius: 25px;
+  text-align:justify;
+  padding:3px;
+  text-shadow: -4.5px -4.5px #000000;
 }
 
 .text2{
-    width: 25%;
-    margin-top:200px;
-    margin-right: 280px;     
+  width: 25%;
+  margin-top:200px;
+  margin-right: 280px;
+  border:3px double rgba(34, 212, 72, 0.541);    
+  background-color:rgba(34, 212, 72, 0.09);
+  height:25%;
+  padding:3px;
+  border-radius: 25px;
+  text-shadow: -4.5px -4.5px #000000;
+  text-align:justify;
 }
 
 .nameImage{
@@ -104,21 +119,76 @@ body{
   transition: .9s;
 }
 
-footer{
+.footer{
   display: flex;
-  margin:auto;
-  width:16%;
-  height:100px
+  justify-content:center;
+  width:100%;
+  z-index:100;
+  position:absolute;
+  margin-top:20px;
+  
 }
 
 .aicon{
-  font-size:70px
+  font-size:50px;
+  margin:20px;
+  margin-top: 10px;      
 }
 
 .github{
-  color:#151714
+  text-align: center;
+  color:#151714;
+  font-family:"Blade Runner Movie Font";
+  transition:1s;
+  border:3px double rgba(130, 81, 158, 0.863);   
+  background-color:rgba(96, 76, 108, 0.884);
 }
 
-.footerSection:hover .github{
-  color:#ffff
+.footergit:hover .github{
+  
+  color:#ffff;
+  transition:1s;
+}
+
+.linkedin{
+  text-align: center;
+  color:#151714;
+  font-family:"Blade Runner Movie Font";
+  transition:1s;
+  border:3px double rgba(130, 81, 158, 0.863);   
+  background-color:rgba(96, 76, 108, 0.884);
+}
+
+.footerlinkedin:hover .linkedin{
+  color:#ffff;
+  transition:1s;
+}
+
+.email{
+  text-align: center;
+  color:#151714;
+  width:80px;
+  font-family:"Blade Runner Movie Font";
+  transition:1s;
+  border:3px double rgba(130, 81, 158, 0.863);   
+  background-color:rgba(96, 76, 108, 0.884);
+}
+
+.footeremail:hover .email{
+  color:#ffff;
+  transition:1s;
+}
+
+#lienzo2{
+  z-index: 50;
+  position:relative;
+}
+
+.contacto{
+  font-size:30px;
+  width:200px;
+  margin: auto;
+  font-family:"Blade Runner Movie Font";
+  color:#ffffff;
+  margin-bottom: 0px;
 }

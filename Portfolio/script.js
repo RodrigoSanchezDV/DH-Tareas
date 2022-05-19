@@ -55,7 +55,7 @@ function matrix2 (){
     ctx2.fillStyle = "#151714";
     ctx2.fillRect(0,0,w2,h2);
 
-    ctx2.fillStyle = "#EB47A0"
+    ctx2.fillStyle = "#551A8B"
     ctx2.font = "15pt monospace"
 
     posicion_y2.forEach((y,ind)=>{
@@ -73,9 +73,6 @@ function matrix2 (){
     })
 }
 setInterval(matrix2,60);
-
-
-
 
 class TextScramble {
     constructor(el) {
@@ -149,11 +146,22 @@ const phrases2 = [
     'Proyects'
 ]
 
+const phrases3 = [
+    'Contacto',
+    'Redes',
+    'Email',
+    'GitHub',
+    'Linkedin'
+]
+
 const el = document.querySelector('.titleName')
 const fx = new TextScramble(el)
 
-const el1 =document.querySelector('.proyectsTitle')
-const fx1 = new TextScramble(el1)
+const el2 =document.querySelector('.proyectsTitle')
+const fx2 = new TextScramble(el2)
+
+const el3 =document.querySelector('.contacto')
+const fx3 = new TextScramble(el3)
 
 let counter = 0
 const next = () => {
@@ -162,10 +170,16 @@ const next = () => {
     })
     counter = (counter + 1) % phrases.length
 
-    fx1.setText(phrases2[counter]).then(() => {
+    fx2.setText(phrases2[counter]).then(() => {
         setTimeout(next, 800)
-        })
-        counter = (counter + 1) % phrases2.length
+    })
+    counter = (counter + 1) % phrases2.length
+
+    fx3.setText(phrases3[counter]).then(() => {
+        setTimeout(next, 800)
+    })
+    counter = (counter + 1) % phrases3.length
+
 
 }
 
