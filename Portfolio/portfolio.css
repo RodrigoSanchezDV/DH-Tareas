@@ -1,0 +1,123 @@
+@import url(//db.onlinewebfonts.com/c/7c274d633694f9a2be5321cfa4b31f8e?family=Blade+Runner+Movie+Font);
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("./images/chameleon.jpg");
+    background-size: 100% auto
+  }
+
+.imageProfile{
+    width: 200px;
+    margin-left:300px;
+}
+
+.description{
+  text-shadow: 0 0 2px rgb(41, 50, 51);
+    display: flex;
+    font-family: 'Bungee Inline';
+    color: #ffffff;
+    font-weight:300;
+    font-size:25px;
+    width:100%;
+    justify-content:space-between;
+    margin-bottom:50px;
+}
+
+.text1{
+    width: 25%;
+    margin-left: 280px;
+}
+
+.text2{
+    width: 25%;
+    margin-top:200px;
+    margin-right: 280px;     
+}
+
+.nameImage{
+  display: flex;
+  
+}
+
+.titleName{
+  color: #ffffff;
+  margin-left: 350px;
+  margin-top: 50px;
+  font-family: 'Blade Runner Movie Font';
+}
+
+.proyects{
+  display: flex;
+  justify-content: space-around;
+  margin-top:50px;
+}
+
+.habitoImg{
+  width: 200px;
+  height: 300px;
+  border-radius:30px;
+  border: 3px solid #2a1641;
+}
+
+.habitoImg1{
+  width: 200px;
+  height: 300px;
+  border-radius:30px;
+  border: 3px solid #2a1641;
+}
+
+.textProyect{
+  text-shadow: -1.5px -1.5px #000000;
+  text-align: justify;
+  font-family: 'Bungee Inline';
+  color: #ffffff;
+  width: 400px;
+}
+
+.ancoreHabito{
+  margin-left:100px
+}
+
+.proyectsTitle{
+  color: #ffffff;
+  font-family: 'Blade Runner Movie Font';
+  font-size: 45px;
+  margin-left:15%;
+  width:370px;
+  margin-bottom:70px
+}
+
+.headerimg{
+  color: #ffffff;
+  font-family: 'Blade Runner Movie Font';
+  text-shadow: -1.5px -1.5px #000000;
+}
+
+.habitoImg:hover{
+  box-shadow: 15px -5px 5px rgba(1, 191, 156, 0.09);
+  border: 3px solid rgba(1, 191, 156, 0.09);
+  transition: .9s;
+}
+
+footer{
+  display: flex;
+  margin:auto;
+  width:16%;
+  height:100px
+}
+
+.aicon{
+  font-size:70px
+}
+
+.github{
+  color:#151714
+}
+
+.footerSection:hover .github{
+  color:#ffff
+}
