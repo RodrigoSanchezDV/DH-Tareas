@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("./images/background4.jpg");
+}
+
+.imageProfile{
+    width:100%;
+    border-radius: 50%;
+    border: 6px solid #2f0e4e77;
+}
+
+.imageprofilecontainer{
+    margin: auto;
+    width: 40%
+}
+
+.name{
+    width: 70%;
+    color: #ffff;
+    font-family: 'Blade Runner Movie Font';
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:5%;
+    text-align: center;
+    text-shadow: 3px 3px 2px #541a8b98;
+}
+
+.aboutme{
+    margin-top: 3%;
+    color: #ffff;
+    text-align: center;
+    justify-content: justify;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 550;
+}
+
+.icons{
+    display: flex;
+}
+
+.singleicon{
+    width:15%;
+}
